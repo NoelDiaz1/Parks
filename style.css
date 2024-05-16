@@ -1,3 +1,12 @@
 body {
-    background-color: red;
+    background-color: cadetblue;
+    background-size: cover;
+}
+
+.main {
+    box-shadow: 1px 1px 50px black;
+    width: 46%;
+    height: 98vh;
+    margin: 0 auto;
+    background-color:azure;
 }
