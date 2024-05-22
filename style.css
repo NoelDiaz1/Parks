@@ -1,12 +1,28 @@
 body {
-    background-color: cadetblue;
-    background-size: cover;
+    background-image: url("/images/parkslogo1.png");
+    background-color: rgb(99, 160, 95);
 }
 
-.main {
+.main-container {
+    opacity: .95;
     box-shadow: 1px 1px 50px black;
     width: 46%;
     height: 98vh;
     margin: 0 auto;
     background-color:azure;
+}
+
+.parks-logo {
+    width: 20%;
+}
+
+.card-containers {
+    display: flex;
+    border: blue solid 1px;
+}
+
+.containers {
+    border: red solid 1px;
+    width: 100px;
+    height: 100px;
 }
