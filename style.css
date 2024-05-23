@@ -3,11 +3,19 @@ body {
     background-color: rgb(99, 160, 95);
 }
 
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar > h1 {
+    margin-left: 180px;
+}
+
 .main-container {
     opacity: .95;
     box-shadow: 1px 1px 50px black;
     width: 46%;
-    height: 98vh;
     margin: 0 auto;
     background-color:azure;
 }
@@ -17,12 +25,20 @@ body {
 }
 
 .card-containers {
+    border: red solid 1px;
     display: flex;
-    border: blue solid 1px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
 }
 
 .containers {
-    border: red solid 1px;
-    width: 100px;
-    height: 100px;
+    border: black solid 1px;
+    width: 150px;
+    height: 150px;
+}
+
+.second-container1 {
+    border: orange solid 2px;
 }

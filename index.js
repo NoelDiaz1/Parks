@@ -3,14 +3,10 @@ const cardContainers = document.getElementById("card-containers")
 
 const cards = () => {
     let cardHtml = ""
-    return cardHtml = `
-        <div class="card-containers">
-            <div class="containers"></div>
-            <div class="containers"></div>
-            <div class="containers"></div>
-            <div class="containers"></div>
-        </div>
-    `
+    for (let i = 0; i < 8; i++) {
+       cardHtml += `<div class="containers"></div>`
+    }
+    return cardHtml
 }
 
 const render = () => {
